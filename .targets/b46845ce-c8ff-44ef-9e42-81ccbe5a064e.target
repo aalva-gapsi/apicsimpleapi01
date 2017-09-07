@@ -1,0 +1,171 @@
+type: bluemix
+server:
+  displayName: US South
+  name: us-south
+  host: us.apiconnect.ibmcloud.com
+org:
+  id: 59a42b310cf2bef4674cbe47
+  name: alvajandro-apiconnect-desa
+  displayName: alvajandro (apiconnect-desa)
+  orgType: apiProvider
+  status: active
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+  dormant: false
+  url: 'https://us.apiconnect.ibmcloud.com/v1/orgs/59a42b310cf2bef4674cbe47'
+  externalOrgId: febd5341-269f-4521-834a-8b153aa43c12
+  externalInviteOverride: 'https://console.bluemix.net/apis/catalog/invitation?env_id=ibm:yp:us-south'
+  externalSpaceId: febd5341-269f-4521-834a-8b153aa43c12
+  externalNativeOrgId: 15402f0d-6b1f-4c34-81af-db219e8386cf
+  bluemix:
+    inviteUri: 'https://console.bluemix.net/apis/catalog/invitation?env_id=ibm:yp:us-south'
+    organization: 15402f0d-6b1f-4c34-81af-db219e8386cf
+    space: febd5341-269f-4521-834a-8b153aa43c12
+catalog:
+  id: 59a42b320cf2bef4674cbe53
+  orgId: 59a42b310cf2bef4674cbe47
+  name: Sandbox
+  shortName: sb
+  owner:
+    id: 598250cd0cf2457c67240b3f
+    username: alvajandro@gmail.com
+    context: apimanager
+    idpId: 58341db4e63b1219f0f068d1
+    email: alvajandro@gmail.com
+    firstName: Alejandro Alva
+    lastName: ''
+    status: ACTIVE
+    lastLoginTime: '2017-09-07T13:51:41.749+0000'
+    url: 'https://us.apiconnect.ibmcloud.com/v1/users/598250cd0cf2457c67240b3f'
+  apiCenter: false
+  portalType: ADVANCED
+  portalUrl: 'https://developer.us.apiconnect.ibmcloud.com/alvajandro-apiconnect-desa/sb'
+  customPortalUrl: 'https://developer.us.apiconnect.ibmcloud.com/alvajandro-apiconnect-desa/sb'
+  advPortalUrl: 'https://sb-alvajandro-apiconnect-desa.developer.us.apiconnect.ibmcloud.com'
+  gatewayType: DataPowerGateway
+  gwServices:
+    - id: PRODAPIC_APIMGMT_GATEWAY
+      endpointUrl: 'https://api.us.apiconnect.ibmcloud.com/alvajandro-apiconnect-desa/sb'
+  idp: 59a42b330cf2bef4674cbe9a
+  idps:
+    - 59a42b330cf2bef4674cbe9a
+  availableRoles:
+    - viewer
+    - developer
+  default: false
+  autoDeploy: true
+  restrictedDeployment: false
+  invitationEnabled: true
+  selfSignUpEnabled: true
+  spaceEnabled: false
+  spaceIds:
+    - 59a42b330cf2bef4674cbeaf
+  testAppEnabled: true
+  testAppCredentials:
+    clientId: c0ccc5bf-52a4-4819-aa8f-bc020ff75538
+    clientSecret: fR8lW7mN6lS0iA6qK8uV2gD1jC5mG2gY5jK4hO4lK4sL2rN5pJ
+  createdAt: '2017-08-28T14:39:47.389+0000'
+  updatedAt: '2017-08-28T14:41:18.569+0000'
+  createdBy: apim-ops@wwpdl.vnet.ibm.com
+  updatedBy: alvajandro@gmail.com
+  url: >-
+    https://us.apiconnect.ibmcloud.com/v1/orgs/59a42b310cf2bef4674cbe47/environments/59a42b320cf2bef4674cbe53
+  applicationLifecycleEnabled: false
+  productDeploymentApprovalRequiredStates: []
+  orgName: alvajandro-apiconnect-desa
+space:
+  none: true
+app:
+  metadata:
+    guid: 0e5f7884-48ab-4721-8767-6e2d3bb1e8cc
+  entity:
+    guid: 0e5f7884-48ab-4721-8767-6e2d3bb1e8cc
+    name: apicsimpleapi01app
+    routes:
+      - guid: a9de8669-f11f-4679-8cbc-0e7ff99abe45
+        host: apiconnect-0e5f7884-48ab-4721-8767-6e2d3bb1e8cc
+        port: null
+        path: ''
+        domain:
+          guid: 46880649-1331-4816-a574-b3c4284626e1
+          name: alvajandro-apiconnect-desa.apic.mybluemix.net
+    running_instances: 0
+    services:
+      - guid: 375740a6-259d-491f-88be-c0f376e93af1
+        name: availability-monitoring-auto
+        bound_app_count: 1
+        last_operation:
+          type: create
+          state: succeeded
+          description: ''
+          updated_at: '2017-08-29T15:37:20Z'
+          created_at: '2017-08-29T15:37:20Z'
+        dashboard_url: >-
+          https://perfbroker.ng.bluemix.net/1.0/ui/375740a6-259d-491f-88be-c0f376e93af1
+        service_plan:
+          guid: f6884b86-c4bf-46ac-8eb9-b938de9c1b0e
+          name: Lite
+          service:
+            guid: 18cfd285-46c2-457b-bfba-7e469e1bddf9
+            label: AvailabilityMonitoring
+            provider: null
+            version: null
+    available_domains:
+      - guid: ce91ea66-4999-4f18-9d9a-21059c05710d
+        name: alvajandro-ibm-redbooks.apic.mybluemix.net
+        owning_organization_guid: 15402f0d-6b1f-4c34-81af-db219e8386cf
+      - guid: 50f65871-e124-485c-adbe-5d0580d9b06c
+        name: alvajandro-demo01.apic.mybluemix.net
+        owning_organization_guid: 15402f0d-6b1f-4c34-81af-db219e8386cf
+      - guid: 46880649-1331-4816-a574-b3c4284626e1
+        name: alvajandro-apiconnect-desa.apic.mybluemix.net
+        owning_organization_guid: 15402f0d-6b1f-4c34-81af-db219e8386cf
+      - guid: f4b90d7e-2cd3-4d30-b200-f28bbaf6be20
+        name: mybluemix.net
+        router_group_guid: null
+        router_group_type: null
+    production: false
+    space_guid: febd5341-269f-4521-834a-8b153aa43c12
+    stack_guid: ac91d31a-86a3-453b-babf-8d49c9d763fc
+    buildpack: null
+    detected_buildpack: 'SDK for Node.js(TM) (ibm-node.js-6.11.1, buildpack-v3.13-20170725-1347)'
+    detected_buildpack_guid: 712563ba-3a7b-4d45-a168-2791985db633
+    environment_json: {}
+    memory: 256
+    instances: 1
+    disk_quota: 1024
+    state: STOPPED
+    version: 8a1d5243-c4aa-4040-938a-416237b974a6
+    command: null
+    console: true
+    debug: null
+    staging_task_id: 248adf15-712f-4d6a-86e5-3460107e4e72
+    package_state: PENDING
+    health_check_type: port
+    health_check_timeout: null
+    health_check_http_endpoint: null
+    staging_failed_reason: null
+    staging_failed_description: null
+    diego: true
+    docker_image: null
+    package_updated_at: '2017-09-07T17:52:09Z'
+    detected_start_command: ./vendor/initial_startup.rb
+    enable_ssh: true
+    docker_credentials_json:
+      redacted_message: '[PRIVATE DATA HIDDEN]'
+    ports: null
+id: b46845ce-c8ff-44ef-9e42-81ccbe5a064e
+target: 1.0.0
+versionOptions:
+  inplaceUpdate: true
+publishApp: true
+publishProducts: true
+specificProducts: true
+workspaceDir:
+  name: simpleapi01
+  path: 'C:\Wrkspcs\wrkspcApiConnect\simpleapi01'
+  id: 3
+  displayName: simpleapi01
+  type: project
+  projectType: loopback

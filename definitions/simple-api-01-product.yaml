@@ -1,0 +1,41 @@
+product: 1.0.0
+info:
+  name: simple-api-01-product
+  title: Simple API 01 Product
+  version: 1.0.0
+apis:
+  simple-api-01:
+    $ref: simple-api-01.yaml
+visibility:
+  view:
+    type: public
+  subscribe:
+    type: authenticated
+plans:
+  oro:
+    title: Oro
+    apis: {}
+    approval: true
+  plata:
+    title: Plata
+    apis: {}
+    rate-limits:
+      rate-limit-2:
+        value: 100/1second
+  bronce:
+    title: Bronce
+    apis: {}
+    rate-limits:
+      rate-limit-1:
+        value: 70000/1week
+      rate-limit-2:
+        value: 20/1second
+  prueba:
+    title: Prueba
+    description: Default Plan
+    approval: false
+    rate-limits:
+      rate-limit-1:
+        value: 500/1day
+      rate-limit-2:
+        value: 1/1second
